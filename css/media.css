@@ -1,0 +1,41 @@
+/* Планшетов X */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .promo {
+        height: 575px;
+    }
+    .promo h1 {
+        font-size: 60px;
+    }
+    .tours_box {
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+/* Телефоны Х */
+@media (max-width: 768px) {
+    .tours_box {
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .nav{
+        display: none;
+    }
+    .burger_menu {
+        display: flex;
+    }
+    .excursion_box {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Телефоны Y */
+@media (max-width: 576px) {
+    .promo h1 {
+        font-size: 35px;
+    }
+}
